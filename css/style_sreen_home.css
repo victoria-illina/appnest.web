@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  background: url("../image/Overlay.png");
+  padding: 150px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.screen_home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+.app {
+  color: #00cff1;
+  font-weight: 700;
+}
+
+.nest {
+  color: #00cff1;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.18px;
+}
+
+.block_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button_apple_store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.button_play_store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
