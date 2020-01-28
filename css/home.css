@@ -53,6 +53,9 @@ h2 {
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 10px 15px;
+  backgroundcolor: url("../image/Background.png");
+  width: 170px;
+  height: 60px;
 }
 
 .button_play_store {
@@ -63,4 +66,6 @@ h2 {
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 10px 15px;
+  width: 170px;
+  height: 60px;
 }
