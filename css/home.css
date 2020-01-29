@@ -15,6 +15,7 @@ h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
+  padding-bottom: 10px;
 }
 .app {
   color: #00cff1;
@@ -31,6 +32,7 @@ h2 {
   font-weight: 300;
   line-height: 30px;
   letter-spacing: 0.18px;
+  padding-bottom: 40px;
 }
 
 .block_left {
@@ -43,6 +45,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 50px;
 }
 
 .button_apple_store {
@@ -50,22 +53,36 @@ h2 {
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid;
   border-radius: 10px;
-  padding: 10px 15px;
-  backgroundcolor: url("../image/Background.png");
-  width: 170px;
-  height: 60px;
+  background: url("../image/Background.png");
+  padding: 5px 10px;
+  width: 130px;
+  height: 50px;
+  margin-right: auto;
 }
 
 .button_play_store {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 10px;
-  padding: 10px 15px;
-  width: 170px;
-  height: 60px;
+  padding: 5px 10px;
+  width: 130px;
+  height: 50px;
+  margin-right: 170px;
+}
+
+.Download {
+  font-size: 9px;
+  font-weight: 300;
+  line-height: 8px;
+  letter-spacing: 0.09px;
+}
+
+.Store {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
 }
