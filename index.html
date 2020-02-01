@@ -8,76 +8,67 @@
     <link rel="stylesheet" href="./css/home.css" />
   </head>
   <body>
-    <div class="home" id="home">
-      <div class="header">
-        <div class="wrapper header__container">
-          <div class="header_logo">
-            <img src="./image/logo.svg" />
-          </div>
-          <ul class="header__nav">
-            <li class="header__nav-item">
-              <a href="#home">home</a>
-            </li>
-            <li class="header__nav-item">
-              <a href="#feature">feature</a>
-            </li>
-            <li class="header__nav-item">
-              <a href="#pricing">pricing</a>
-            </li>
-            <li class="header__nav-item">
-              <a href="#team">team</a>
-            </li>
-            <li class="header__nav-item">
-              <a href="#blog">blog</a>
-            </li>
-            <li class="header__nav-item">
-              <a href="#contact">contact</a>
-            </li>
-          </ul>
-          <div class="header__buy-button">
-            <a href="#get-app">get the app</a>
-          </div>
+    <div class="header">
+      <div class="grid header__container">
+        <div class="header__logo">
+          <img src="./image/logo.svg" />
+        </div>
+        <ul class="header__nav">
+          <li class="header__nav-item">
+            <a href="#home">home</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#feature">feature</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#pricing">pricing</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#team">team</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#blog">blog</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+        <div class="header__buy-button">
+          <a href="#get-app">get the app</a>
         </div>
       </div>
     </div>
-    <div></div>
-    <div class="container">
-      <div class="wrapper screen_home">
-        <div class="block_left">
-          <h1>
-            <span class="app">App</span>
-            <span class="nest">nest</span>
+    <div id="home" class="home">
+      <div class="grid home__container">
+        <div class="home__content-block">
+          <h1 class="home__title">
+            <span class="home__title-app">App</span>
+            <span class="home__title-nest">nest</span>
             Best Mobile
           </h1>
-          <h2>App Landing Page</h2>
-          <p>
+          <h2 class="home__subtitle">App Landing Page</h2>
+          <p class="home__text">
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
           </p>
-          <p>nisi ut aliquip ex ea commodo consequat.</p>
-          <div class="buttons">
-            <div class="button_apple_store">
-              <div class="apple">
-                <img src="./image/Apple.png" />
-              </div>
+          <p class="home__text">nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="home__btn-group">
+            <div class="home__btn">
+              <img class="home__btn-icon" src="./image/Apple.svg" />
               <div>
-                <p><span class="Download">Download from</span></p>
-                <p><span class="Store">Apple Store</span></p>
+                <p class="home__btn-title">Download from</p>
+                <p class="home__btn-subtitle">Apple Store</p>
               </div>
             </div>
-            <div class="button_play_store">
-              <div class="play">
-                <img src="./image/Play_store.svg" />
-              </div>
+            <div class="home__btn">
+              <img class="home__btn-icon" src="./image/Play_store.svg" />
               <div>
-                <p><span class="Download">Download from</span></p>
-                <p><span class="Store">Play Store</span></p>
+                <p class="home__btn-title">Download from</p>
+                <p class="home__btn-subtitle">Play Store</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="block_right">
-          <img src="./image/iPhone_X_Mockup.png" />
-        </div>
+        <img src="./image/iPhone_X_Mockup.png" />
       </div>
     </div>
   </body>
