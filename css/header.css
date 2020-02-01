@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav-item {
+  margin: 10px;
+  list-style: none;
+}
+
+.header__nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__buy-button a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
