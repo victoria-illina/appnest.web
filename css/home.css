@@ -1,38 +1,39 @@
 .home {
   background: #35203b;
-  padding-top: 90px;
-}
-
-.container {
+  padding: 240px 0 150px;
   width: 100%;
-  background: url("../image/Overlay.png");
-  padding: 150px 0;
   color: #fff;
   text-transform: uppercase;
 }
 
-.screen_home {
+.home__content-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-h1 {
+.home__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
   padding-bottom: 10px;
 }
-.app {
+.home__title-app {
   color: #00cff1;
   font-weight: 700;
 }
 
-.nest {
+.home__title-nest {
   color: #00cff1;
   font-weight: 300;
 }
 
-h2 {
+.home__subtitle {
   font-size: 36px;
   font-weight: 300;
   line-height: 30px;
@@ -40,53 +41,44 @@ h2 {
   padding-bottom: 40px;
 }
 
-.block_left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.home__text {
+  font-size: 16px;
 }
 
-.buttons {
+.home__btn-group {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 50px;
 }
 
-.button_apple_store {
+.home__btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  border: 1px solid;
-  border-radius: 10px;
-  background: #24c657;
-  padding: 5px 10px;
-  width: 130px;
-  height: 50px;
-  margin-right: auto;
-}
-
-.button_play_store {
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
   border: 1px solid #fff;
   border-radius: 10px;
-  padding: 5px 10px;
+  background: transparent;
+  padding: 0px 10px;
   width: 130px;
   height: 50px;
-  margin-right: 170px;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
-.Download {
+.home__btn:hover {
+  background: #24c657;
+  border: 1px solid #24c657;
+}
+
+.home__btn-title {
   font-size: 9px;
   font-weight: 300;
   line-height: 8px;
   letter-spacing: 0.09px;
 }
 
-.Store {
+.home__btn-subtitle {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.16px;
