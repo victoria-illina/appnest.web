@@ -1,0 +1,31 @@
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #fbfbfb;
+  padding: 120px 0 130px;
+}
+
+.feature__title {
+  color: #414040;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 8px;
+  letter-spacing: 0.18px;
+}
+
+/*.feature__text {
+  display: flex;
+  justify-content: column;
+}*/
+
+.feature__text-discription {
+  color: #565656;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
