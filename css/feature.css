@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-right: 40px;
+  padding-right: 48px;
 }
 
 .feature__item:last-child {
@@ -58,7 +58,6 @@
 
 .feature__title {
   color: #414040;
-  font-family: "Poppins";
   font-size: 18px;
   font-weight: 700;
   line-height: 8px;
@@ -73,6 +72,8 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-   text-align: center;
+  text-align: justify;
+  text-align-last: center;
+  width: 252px;
 }
 

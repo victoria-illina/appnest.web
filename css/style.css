@@ -9,7 +9,8 @@ p,
 h2,
 a,
 li,
-span {
+span,
+h3 {
   font-family: "Poppins", sans-serif;
 }
 
