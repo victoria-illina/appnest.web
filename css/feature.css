@@ -45,16 +45,16 @@
 }
 
 .bg-blue {
-  background:#00cff1;
+  background: #00cff1;
 }
 
 .bg-pink {
-  background:#ff45c4;
- }
+  background: #ff45c4;
+}
 
 .bg-orange {
-  background:#ff9d46;
- }
+  background: #ff9d46;
+}
 
 .feature__title {
   color: #414040;
@@ -76,4 +76,3 @@
   text-align-last: center;
   width: 252px;
 }
-
