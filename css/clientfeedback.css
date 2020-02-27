@@ -1,24 +1,23 @@
-.clientfeedback {
+.client-feedback {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #fff;
   padding: 130px 0;
 }
 
-.clientfeedback__title {
+.client-feedback__title {
   color: #282828;
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
 }
 
-.clientfeedback__title-blue {
+.client-feedback__title-blue {
   color: #00cff1;
 }
 
-.clientfeedback__text {
+.client-feedback__text {
   width: 463px;
   color: #575757;
   font-family: "Raleway", sans-serif;
@@ -30,13 +29,13 @@
   padding: 29px 0 80px;
 }
 
-.clientfeedback__blocks {
+.client-feedback__persons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.clientfeedback__blocks-container {
+.client-feedback__persons-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,35 +47,35 @@
   margin-bottom: 60px;
 }
 
-.clientfeedback__blocks-container:last-of-type {
+.client-feedback__persons-item:last-of-type {
   margin-right: 0;
 }
 
-.clientfeedback__blocks-container-foto {
+.client-feedback__persons-item-foto {
   background-color: #00cff1;
   border-radius: 50%;
   width: 90px;
   height: 90px;
 }
 
-.clientfeedback__blocks-container-name {
+.client-feedback__persons-item-name {
   color: #00cff1;
   font-size: 24px;
   font-weight: 700;
   padding-top: 20px;
 }
 
-.green {
+.color-text {
   color: #24c657;
 }
 
-.clientfeedback__blocks-container-company {
+.client-feedback__persons-item-company {
   color: #282828;
   font-size: 18px;
   font-weight: 400;
 }
 
-.clientfeedback__blocks-container-text {
+.client-feedback__persons-item-text {
   color: #575757;
   font-family: "Raleway", sans-serif;
   font-style: Italic;
@@ -88,11 +87,11 @@
   padding: 40px 40px 34px 30px;
 }
 
-.clientfeedback__blocks-container-text:last-of-type {
+.client-feedback__persons-item-text:last-of-type {
   text-align: center;
 }
 
-.clientfeedback__blocks-container-icons {
+.client-feedback__persons-item-icons {
   display: flex;
   align-items: center;
   justify-content: center;
