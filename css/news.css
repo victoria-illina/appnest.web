@@ -26,7 +26,6 @@
 
 .news__item-description {
   display: flex;
-  /*align-items: left;*/
   justify-content: center;
   flex-direction: column;
   width: 370px;
@@ -42,7 +41,7 @@
   padding-left: 29px;
 }
 
-.news__item-title:hover {
+.news__item:hover .news__item-title {
   color: #00cff1;
 }
 
