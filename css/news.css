@@ -39,6 +39,11 @@
   font-weight: 700;
   line-height: 24px;
   color: #474747;
+  padding-left: 29px;
+}
+
+.news__item-title:hover {
+  color: #00cff1;
 }
 
 .news__item-authored {
@@ -46,6 +51,7 @@
   font-size: 14px;
   line-height: 48px;
   font-weight: 700;
+  padding-left: 29px;
 }
 
 .news__item-authored span {
@@ -60,11 +66,31 @@
   line-height: 24px;
   width: 310px;
   text-align: left;
+  padding-left: 29px;
 }
 
 .news__item-link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 29px;
+}
+
+.news__item-link-text {
   color: #474747;
   font-size: 16px;
   font-weight: 700;
   line-height: 48px;
+}
+
+.news__item-link-text:hover {
+  color: #00cff1;
+}
+
+.news__item-link-svg {
+  padding: 5px 0 0 5px;
+}
+
+.news__item-link-svg:hover path {
+  fill: #00cff1;
 }
