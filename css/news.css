@@ -82,7 +82,7 @@
   line-height: 48px;
 }
 
-.news__item-link-text:hover {
+.news__item:hover .news__item-link-text {
   color: #00cff1;
 }
 
@@ -90,6 +90,6 @@
   padding: 5px 0 0 5px;
 }
 
-.news__item-link-svg:hover path {
+.news__item:hover .news__item-link-svg path {
   fill: #00cff1;
 }
