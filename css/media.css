@@ -1,0 +1,35 @@
+@media (max-width: 900px) {
+  .header__nav,
+  .header__buy-button {
+    display: none;
+  }
+
+  .header__container {
+    justify-content: center;
+  }
+  .home__container img {
+    display: none;
+  }
+
+  .home__title,
+  .home__subtitle,
+  .home__text {
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .home__content-block {
+    width: 100%;
+  }
+
+  .home__btn-group {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .feature__item:last-child {
+    padding-right: 48px;
+  }
+}
