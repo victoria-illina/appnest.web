@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  align-items: stretch;
+  /*align-items: stretch;*/
   justify-content: center;
   padding: 138px 0 149px;
   background: #fbfbfb;
@@ -8,19 +8,20 @@
 }
 
 .footer__contact-conteiner {
-  width: 321px;
+  width: 330px;
   padding-right: 80px;
 }
 
-.footer__text {
+.footer__contact-text {
   color: #575757;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
+  padding: 65px 0 35px;
 }
 
-.footer__title {
+.footer__contact-title {
   color: #575757;
   font-size: 24px;
   font-weight: 700;
@@ -30,29 +31,76 @@
 .footer__social-link {
   display: flex;
   align-items: center;
+  padding-bottom: 45px;
+}
+
+.footer__title {
+  color: #575757;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 48px;
+  padding-bottom: 40px;
 }
 
 .footer__link-icon {
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
-.footer__social-icon:last-of-type {
-  padding-right: 0;
+.footer__links {
+  width: 145px;
+  padding-right: 60px;
 }
 
-.footer__block {
-  width: 135px;
-  padding-right: 65px;
+.footer__links-group {
+  list-style: none;
+  margin: ;
 }
 
-.footer__block-text {
+.footer__links-group li {
+  margin-bottom: 15px;
+}
+
+.footer__text {
   color: #575757;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  line-height: 36px;
 }
 
-.footer__contact {
+.footer__links-item {
+  text-decoration: none;
+}
+
+.footer__links-item:hover {
+  color: #00cff1;
+}
+
+.footer__contact-email {
   padding-right: 15px;
+}
+
+.footer__email-btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.footer__input {
+  width: 270px;
+  border-radius: 30px 0 0 30px;
+  padding: 20px 0;
+  border: 1px solid #d8d8d8;
+  outline: none;
+  padding-left: 20px;
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  border-radius: 0 30px 30px 0;
+  background: #24c657;
+  padding: 20px 0;
 }
