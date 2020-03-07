@@ -16,7 +16,7 @@ h3 {
 
 .screen {
   margin: 0 auto;
-  width: 1170px;
+  max-width: 1170px;
 }
 
 .screen__title {
