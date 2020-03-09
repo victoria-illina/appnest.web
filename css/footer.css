@@ -1,9 +1,12 @@
 .footer {
+  background: #fbfbfb;
+  width: 100%;
+}
+
+.footer__wrapper {
   display: flex;
   justify-content: center;
   padding: 138px 0;
-  background: #fbfbfb;
-  width: 100%;
 }
 
 .footer__contact-container {
