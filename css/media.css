@@ -116,7 +116,7 @@
   }
 }
 @media (min-width: 900px) and (max-width: 1150px) {
-  .statistics__item:last-of-type {
+  .statistics__item:nth-child(4) {
     display: none;
   }
 }
